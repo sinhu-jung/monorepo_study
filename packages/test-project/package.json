@@ -1,0 +1,17 @@
+{
+    "name": "@monorepo/test-project",
+    "version": "0.0.0",
+    "devDependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@types/react": "^18.3.2",
+        "@types/react-dom": "^18.3.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "typescript": "^5.4.5"
+    },
+    "main": "./src/index.ts",
+    "exports": {
+        ".": "./src/index.ts"
+    }
+}
